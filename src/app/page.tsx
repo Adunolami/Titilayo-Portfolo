@@ -6,25 +6,25 @@ import { Card, CardContent } from "@/components/ui/card";
 
 export default function Home() {
   const projects = [
-    {
+     {
       name: "Novac Website",
-      url: "https://novac-website-qqqcuz4gk-adunolammis-projects.vercel.app",
+      url: "novac-website-fb3k.vercel.app",
     },
     {
       name: "Fame Website",
-      url: "https://fame-website-hmkm1ygkq-adunolammis-projects.vercel.app",
+      url: "https://fame-website-iota.vercel.app/",
     },
     {
       name: "Health Tracking Dashboard",
-      url: "https://health-tracking-dashboard-iwb0gdqye-adunolammis-projects.vercel.app",
+      url: "health-tracking-dashboard-kohl.vercel.app",
     },
     {
       name: "Fintech App",
-      url: "https://fintech-mx0ezuy99-adunolammis-projects.vercel.app",
+      url: "fintechapp-seven.vercel.app",
     },
     {
       name: "Capstone Task Manager",
-      url: "https://capstone-task-manager-project-c54tqflwn-adunolammis-projects.vercel.app",
+      url: "capstone-task-manager-project.vercel.app",
     },
   ];
 
@@ -139,6 +139,31 @@ export default function Home() {
               </CardContent>
             </Card>
           ))}
+        </div>
+      </section>
+       <section id="contact" className="mb-20">
+        <h3 className="text-2xl font-bold mb-4">Contact</h3>
+        <p className="text-gray-400 mb-6 max-w-xl">
+          Interested in working together or have a question? Feel free to reach out!
+        </p>
+
+        <div className="space-y-4">
+          <p>
+            <span className="font-semibold text-white">Email:</span>{" "}
+            <a href="mailto:abinatitilayo2@gmail.com.com" className="text-orange-500 underline">abinatitilayo2@gmail.com</a>
+          </p>
+          <p>
+            <span className="font-semibold text-white">Phone:</span>{" "}
+            <a href="tel:+2348168357761" className="text-orange-500 underline">+234 816 835 7761</a>
+          </p>
+          <p>
+            <span className="font-semibold text-white">LinkedIn:</span>{" "}
+            <a href="www.linkedin.com/in/titilayo-abina-865451138" target="_blank" rel="noopener noreferrer" className="text-orange-500 underline">www.linkedin.com/in/titilayo-abina-865451138</a>
+          </p>
+          <p>
+            <span className="font-semibold text-white">GitHub:</span>{" "}
+            <a href="https://github.com/yourgithubusername" target="_blank" rel="noopener noreferrer" className="text-orange-500 underline">https://github.com/Adunolami</a>
+          </p>
         </div>
       </section>
     </main>
