@@ -8,7 +8,7 @@ export default function Home() {
   const projects = [
      {
       name: "Novac Website",
-      url: "novac-website-fb3k.vercel.app",
+      url: "https://novac-website-fb3k.vercel.app",
     },
     {
       name: "Fame Website",
@@ -16,15 +16,15 @@ export default function Home() {
     },
     {
       name: "Health Tracking Dashboard",
-      url: "health-tracking-dashboard-kohl.vercel.app",
+      url: "https://health-tracking-dashboard-kohl.vercel.app",
     },
     {
       name: "Fintech App",
-      url: "fintechapp-seven.vercel.app",
+      url: "https://fintechapp-seven.vercel.app",
     },
     {
       name: "Capstone Task Manager",
-      url: "capstone-task-manager-project.vercel.app",
+      url: "https://capstone-task-manager-project.vercel.app",
     },
   ];
 
